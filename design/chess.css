@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #111;
+}
+
+#chess{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 70px;
+	/* Generate H x W from JS */
+}
+
+.bgc1{
+	background-color: chocolate;
+	outline: 1px solid transparent;
+
+	background: linear-gradient(to right top, #cd783c , #d2691e);
+}
+.bgc2{
+	/*background-color: #F1CF93;*/
+	outline: 1px solid transparent;
+
+	background: linear-gradient(to right top, #c7c7c7, #F1CF93);
+
+}
+
+.bgc1, .bgc2{
+	align-items: center;
+	display: flex;
+	font-size: 3em;
+	justify-content: center;
+}
+
+.pb{
+	/*color: #2A2A1C;*/
+	background: 
+		linear-gradient(to right top, #2A2A1C, #7C7C70);
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+}
+.pw{
+	background: 
+		linear-gradient(to right top, #585858, #C3C3C3);
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+}
